@@ -41,7 +41,13 @@ public class Projectile : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-    
+
+        if (other.tag == "Yellow" && gameObject.tag == "YellowBullet")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+
         Destroy(gameObject);
     }
 
@@ -61,5 +67,11 @@ public class Projectile : MonoBehaviour
     {
         this.gameObject.tag = "GreenBullet";
         this.gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.green;
+    }
+
+    public void YellowSelected()
+    {
+        this.gameObject.tag = "YellowBullet";
+        this.gameObject.GetComponent<Renderer>().sharedMaterial.color = Color.yellow;
     }
 }
