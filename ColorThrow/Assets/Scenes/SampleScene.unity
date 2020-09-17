@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.5649007, g: 0.6356403, b: 0.72393775, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -239,7 +239,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60331871}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -248,7 +248,7 @@ Transform:
   - {fileID: 1145465404}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &82582077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,6 +264,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1733c189d0119774592bda130ceb6094, type: 2}
+    - target: {fileID: 411660215982405324, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6993511301894340823, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -531,7 +535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &245284688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 145db355feb248947aa3a4a0666a8895, type: 2}
+    - target: {fileID: 411660215982405324, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6993511301894340823, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -1834,6 +1842,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2ce3ff3d8916c5b42b0fed188c09225b, type: 2}
+    - target: {fileID: 411660215982405324, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6993511301894340823, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -2214,6 +2226,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1a37615efca95de45952e1bb21ec39d3, type: 2}
+    - target: {fileID: 411660215982405324, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6993511301894340823, guid: a3eaa4024abdb2648812681d41463fc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
